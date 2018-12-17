@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 68fd4e009d7bf1e4cb03f08a202893f3,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -377,48 +378,44 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalPosition.x
       value: -41.85
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalPosition.y
       value: 7.51
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+    - target: {fileID: 4251885738814334, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 10
+    - target: {fileID: 1391705481266052, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
+      propertyPath: m_Name
+      value: Launch Pad
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: c1c1a7929167b384b992a909f9e1f3ad, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &414462519 stripped
 Transform:
@@ -1545,14 +1542,6 @@ Prefab:
     - target: {fileID: 1314935374949766, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
       propertyPath: m_Name
       value: Landing Pad
-      objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4227290303033978, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8410f853dc9846bde5a4de2987cad, type: 2}
